@@ -1,0 +1,41 @@
+package service;
+
+import java.util.HashMap;
+import java.util.List;
+
+import dao.ReviewLikeDAO;
+import dto.ReviewLikeDTO;
+
+public class ReviewLikeServiceImpl implements ReviewLikeService{
+
+	private ReviewLikeDAO dao;
+	
+	public ReviewLikeServiceImpl() {
+		
+	}
+	
+	public void setDao(ReviewLikeDAO dao) {
+		this.dao = dao;
+	}
+	
+	@Override
+	public int review_like_countPro(int review_like_review_seq) {
+		return dao.review_like_count(review_like_review_seq);
+	}
+
+	@Override
+	public void review_like_insertPro(ReviewLikeDTO dto) {
+		dao.review_like_insert(dto);
+	}
+
+	@Override
+	public void review_like_deletePro(int review_like_review_seq) {
+		dao.review_like_delete(review_like_review_seq);
+	}
+
+	@Override
+	public ReviewLikeDTO review_like_viewPro(HashMap<String, Object> map) {
+		return dao.review_like_view(map);
+	}
+
+}

@@ -1,0 +1,8 @@
+1674141018064	Rename resource 'review_like-servlet-context.xml'
+1674141169536	Rename type 'Review_likeController'
+1674141179156	Rename type 'Review_likeDAO'
+1674141186440	Rename type 'Review_likeDaoImpl'
+1674141202174	Rename type 'Review_likeDTO'
+1674141211597	Rename type 'Review_likeService'
+1674141216521	Rename type 'Review_likeServiceImpl'
+1674217494212	Delete element
