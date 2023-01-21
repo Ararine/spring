@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value=""/>
+		<item key="selection" value="S:"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="S:"/>
+			<item value="review_like_num"/>
+			<item value="review_foodstore_seq"/>
 			<item value="review_page"/>
 			<item value="count"/>
 			<item value="review-bookmark"/>
@@ -20,17 +23,14 @@
 			<item value=".bookmark"/>
 			<item value="input"/>
 			<item value="btn-check"/>
-			<item value="btn"/>
-			<item value="i-heart"/>
-			<item value="label"/>
 		</list>
 		<list key="replacehistory">
 			<item value="review_tag"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="876"/>
-		<item key="DIALOG_Y_ORIGIN" value="568"/>
+		<item key="DIALOG_X_ORIGIN" value="1058"/>
+		<item key="DIALOG_Y_ORIGIN" value="532"/>
 		<item key="DIALOG_WIDTH" value="340"/>
 		<item key="DIALOG_HEIGHT" value="452"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>

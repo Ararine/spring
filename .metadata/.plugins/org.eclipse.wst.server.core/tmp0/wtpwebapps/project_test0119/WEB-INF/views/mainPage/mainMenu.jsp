@@ -48,7 +48,7 @@
 									</c:when>
 									<c:otherwise>
 										<form method="post">
-											<a href="/logoutpage.do"> <input class="btn btn-secondary" type="button"
+											<a href="logoutpage.do"> <input class="btn btn-secondary" type="button"
 												value="로그아웃" alt="logout_button">
 											</a>
 										</form>

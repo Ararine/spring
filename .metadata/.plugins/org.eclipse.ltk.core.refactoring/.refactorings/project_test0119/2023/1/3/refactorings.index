@@ -6,3 +6,9 @@
 1674141211597	Rename type 'Review_likeService'
 1674141216521	Rename type 'Review_likeServiceImpl'
 1674217494212	Delete element
+1674287958266	Delete element
+1674292645058	Copy file
+1674310035345	Copy file
+1674310248524	Move 'mypage.jsp' to 'mypage'
+1674310425828	Move 'mypage.css' to 'appServlet'
+1674310429583	Move 'mypage.css' to 'css'

@@ -292,19 +292,25 @@ $(document).ready(function() {
 				review_like_store_id : review_like_store_id
 			};
 
-			alert(review_like_user_id);
-			alert(review_like_review_seq);
+// 			alert(review_like_user_id);
+// 			alert(review_like_review_seq);
 			if (review_like_user_id) {
 				$.ajax({
 					type : "POST",
 					url : "review_like_action.do",
 					data : params,
 					success : function(result) {
-						alert(result.data);
-						if (result.data == '1')
-							alert("insert 성공");
-						else if (result.data == '0')
-							alert("delete 성공");
+// 						alert(result.data);
+						if (result.data == '1') {
+// 							alert("insert 성공");
+// 							alert($('p[id=review-bookmark-number_' + review_like_review_seq +']').text());
+							$('p[id=review-bookmark-number_' + review_like_review_seq +']').text($('p[id=review-bookmark-number_' + review_like_review_seq +']').text()*1 + 1);
+						}
+						else if (result.data == '0') {
+// 							alert("delete 성공");
+// 							alert($('p[id=review-bookmark-number_' + review_like_review_seq +']').text());
+							$('p[id=review-bookmark-number_' + review_like_review_seq +']').text($('p[id=review-bookmark-number_' + review_like_review_seq +']').text()*1 - 1);
+						}
 					},
 					error : function() {
 						alert("error");

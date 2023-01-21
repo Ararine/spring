@@ -137,13 +137,14 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\for studying\spring_workspace\jimat\jimat"/>
 			<item value="C:\for studying\spring_workspace\map_shopdetail_project\map_shopdetail_project"/>
 			<item value="C:\for studying\spring_workspace\project_test0119"/>
 			<item value="C:\for studying\spring_workspace\project"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
-			<item value="C:\for studying\spring_workspace\project_test0119\src\main\webapp\WEB-INF\views\review\review_view.jsp"/>
 			<item value=""/>
+			<item value="C:\for studying\spring_workspace\project_test0119\src\main\webapp\WEB-INF\views\review\review_view.jsp"/>
 		</list>
 	</section>
 </section>
